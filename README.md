@@ -2,7 +2,7 @@
 
 ##Why?##
 
-This is a sample project. Its intent is to explore some common scenarios of a web application. This is a pure HTML/CSS/JavaScript front-end, connecting to a .NET Web API backend. 
+This is a sample project. Its intent is to explore some common scenarios of a web application with a .NET Web API backend. This is based on [Ember-Contact-Management-ConceptUI](https://github.com/MilkyWayJoe/Ember-Contact-Management-ConceptUI).
 
 ##WIP##
 

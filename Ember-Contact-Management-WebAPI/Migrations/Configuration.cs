@@ -12,9 +12,6 @@ namespace Ember_Contact_Management_WebAPI.Migrations
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(Ember_Contact_Management_WebAPI.Models.AppContext context)
-        {
-           
-        }
+        protected override void Seed(Ember_Contact_Management_WebAPI.Models.AppContext context) { }
     }
 }

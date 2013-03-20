@@ -143,7 +143,6 @@
                                     alt="contact.nickname"
                                     title="contact.nickname"}}
                           width="64" height="64" />
-                      {{contact.userId}}
                   </td>
                   <td>
                     {{contact.nickname}}
@@ -347,7 +346,7 @@
               <strong>Notes:</strong> 
             </div>
             <div class="span6">
-              {{view Ember.TextArea valueBinding="notes"}}
+              {{view Ember.TextArea valueBinding="notes" rows="3"}}
             </div>
           </div>
         </div>

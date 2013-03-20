@@ -45,8 +45,7 @@ namespace Ember_Contact_Management_WebAPI {
 
             bundles.Add( new ScriptBundle( "~/bundles/app" ).Include(
                 "~/Scripts/app/app.js",
-                "~/Scripts/app/router.js",
-                "~/Scripts/app/helpers.js" )
+                "~/Scripts/app/setup/*.js" )
                 .IncludeDirectory( "~/Scripts/app/routes", "*.js" )
                 .IncludeDirectory( "~/Scripts/app/models", "*.js" )
                 .IncludeDirectory( "~/Scripts/app/views", "*.js" )

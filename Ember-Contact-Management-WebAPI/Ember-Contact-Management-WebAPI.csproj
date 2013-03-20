@@ -306,18 +306,14 @@
     <Content Include="Scripts\app\app.js" />
     <Content Include="Scripts\app\controllers\contacts_controller.js" />
     <Content Include="Scripts\app\controllers\contact_controller.js" />
-    <Content Include="Scripts\app\helpers.js" />
+    <Content Include="Scripts\app\setup\helpers.js" />
     <Content Include="Scripts\app\models\contact.js" />
-    <Content Include="Scripts\app\router.js" />
+    <Content Include="Scripts\app\setup\router.js" />
     <Content Include="Scripts\app\routes\contacts_add_route.js" />
     <Content Include="Scripts\app\routes\contacts_route.js" />
     <Content Include="Scripts\app\routes\contact_edit_route.js" />
     <Content Include="Scripts\app\routes\contact_route.js" />
-    <Content Include="Scripts\app\views\TodoItemEditView.js" />
-    <Content Include="Scripts\app\views\TodoItemView.js" />
-    <Content Include="Scripts\app\views\TodoListEditView.js" />
-    <Content Include="Scripts\app\views\TodoListNewView.js" />
-    <Content Include="Scripts\app\views\TodoListView.js" />
+    <Content Include="Scripts\app\setup\store.js" />
     <Content Include="Scripts\app\webapi_adapter.js" />
     <Content Include="Scripts\app\webapi_serializer.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -385,6 +381,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Scripts\app\views\" />
     <Folder Include="Templates\" />
   </ItemGroup>
   <ItemGroup>

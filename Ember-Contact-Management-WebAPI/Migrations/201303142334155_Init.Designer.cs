@@ -11,7 +11,7 @@ namespace Ember_Contact_Management_WebAPI.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201303121329152_Init"; }
+            get { return "201303142334155_Init"; }
         }
         
         string IMigrationMetadata.Source

@@ -212,6 +212,10 @@
     <Compile Include="Migrations\201303142334155_Init.Designer.cs">
       <DependentUpon>201303142334155_Init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201303202234520_contact_data_annotation.cs" />
+    <Compile Include="Migrations\201303202234520_contact_data_annotation.Designer.cs">
+      <DependentUpon>201303202234520_contact_data_annotation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\AppContext.cs" />
@@ -318,6 +322,7 @@
     <Content Include="Scripts\app\webapi_serializer.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\ember-data-validations.js" />
     <Content Include="Scripts\html5shiv.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
@@ -390,6 +395,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201303142334155_Init.resx">
       <DependentUpon>201303142334155_Init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201303202234520_contact_data_annotation.resx">
+      <DependentUpon>201303202234520_contact_data_annotation.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

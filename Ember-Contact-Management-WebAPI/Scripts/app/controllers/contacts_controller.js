@@ -3,29 +3,8 @@
 /// <reference path="../models/contact.js" />
 
 App.ContactsController = Em.ArrayController.extend( {
-    error: '',
     sortProperties: ['contactId'],
     sortAscending: true,
-
-    hasError: function () {
-        var currentError = this.get( 'error' );
-        return !( currentError === '' || currentError === null );
-    }.property( 'error' ),
-
-    addTodoList: function () {
-        var transaction = App.store.transaction();
-        var contact = transaction.createRecord( App.Contact, {
-            firstName: '',
-            middleName: '',
-            lastName: '',
-            nickname: '',
-            twitter: '',
-            facebook: '',
-            website: '',
-            notes: ''
-        });
-        transaction.commit();
-    },
     count: function () {
         return this.get( 'filteredContent.length' );
     }.property( 'filteredContent.@each' ),

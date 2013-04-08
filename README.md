@@ -14,9 +14,9 @@ __Using:__
 
  - jQuery 1.9.1
  - Handlebars 1.0 RC3
- - Ember 1.0 RC1
- - Ember Data revision 11
+ - Ember 1.0 RC2
+ - Ember Data revision 12
  - Twitter Bootstrap 2.3.1
- - ASP.NET Web API
+ - ASP.NET Web API (VS2012 + Update 1; Haven't tested Update2)
  - (modified version of) MVCSPAWithEmberjs Template 
  - Entity Framework

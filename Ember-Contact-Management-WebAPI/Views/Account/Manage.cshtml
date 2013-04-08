@@ -11,9 +11,9 @@
     <p class="message-success">@ViewBag.StatusMessage</p>
 
     <p>You're logged in as <strong>@User.Identity.Name</strong>.</p>
-    <p>@Html.ActionLink("Back to My Todo List", "Index", "Home")</p>
+    <p>@Html.ActionLink("Back to App", "Index", "Home")</p>
 
-    <section class="todoList">
+    <section>
     @if (ViewBag.HasLocalPassword)
     {
         @Html.Partial("_ChangePasswordPartial")
@@ -24,7 +24,7 @@
     }
     </section>
 
-    <section class="todoList" id="externalLogins">
+    <section id="externalLogins">
         @Html.Action("RemoveExternalLogins")
 
         <h3>Add an external login</h3>

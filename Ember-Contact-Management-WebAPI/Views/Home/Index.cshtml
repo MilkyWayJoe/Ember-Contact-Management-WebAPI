@@ -1,10 +1,10 @@
 ﻿@model Ember_Contact_Management_WebAPI.Models.LoginModel
 @{
-    ViewBag.Title = "My Todo List";
+    ViewBag.Title = "Contact Manager";
 }
 
 <div id="main-content">
-    <div class="todoList" id="loginPanel">
+    <div id="loginPanel">
         <section id="localLoginPanel">
             <h2>Log in</h2>
             @Html.Partial("_Login")
@@ -15,7 +15,7 @@
         </section>
         <p>First time here? <a id="showRegister">Sign up</a></p>
     </div>
-    <div class="todoList" id="registerPanel">
+    <div id="registerPanel">
         <h2>Sign up</h2>
         @Html.Partial("_Register")
         <p>Already signed up? <a id="showLogin">Log in</a></p>

@@ -1,10 +1,4 @@
-﻿
-DS.WebAPIAdapter.map( 'App.Contact', {
-    // Web API server is not handling reference update/delete, so use "load" instead of "always"
-    todos: { embedded: 'load' }
-} );
-
-var adapter = DS.WebAPIAdapter.create( {
+﻿var adapter = DS.WebAPIAdapter.create( {
     namespace: "api",
     bulkCommit: false,
     antiForgeryTokenSelector: "#antiForgeryToken"
@@ -19,5 +13,5 @@ serializer.configure( 'App.Contact', {
 
 App.store = DS.Store.create( {
     adapter: adapter,
-    revision: 11
+    revision: 12
 } );

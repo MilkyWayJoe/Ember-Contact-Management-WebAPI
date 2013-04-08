@@ -33,8 +33,8 @@ namespace Ember_Contact_Management_WebAPI {
            ) );
 
             bundles.Add( new Bundle( "~/bundles/ember", new JsMinify() ).Include(
-                "~/Scripts/handlebars-1.0.0-rc.3.js",
-                "~/Scripts/ember-1.0.0-rc.1.js",
+                "~/Scripts/handlebars.js",
+                "~/Scripts/ember-1.0.0-rc.2.js",
                 "~/Scripts/ember-data.js",
                 "~/Scripts/app/webapi_serializer.js",
                 "~/Scripts/app/webapi_adapter.js"
@@ -55,8 +55,7 @@ namespace Ember_Contact_Management_WebAPI {
                         "~/Scripts/modernizr-*" ) );
 
             bundles.Add( new StyleBundle( "~/Content/css" ).Include(
-                "~/Content/Site.css",
-                "~/Content/TodoList.css" ) );
+                "~/Content/Site.css" ) );
 
             bundles.Add( new StyleBundle( "~/Content/themes/base/css" ).Include(
                         "~/Content/themes/base/jquery.ui.core.css",

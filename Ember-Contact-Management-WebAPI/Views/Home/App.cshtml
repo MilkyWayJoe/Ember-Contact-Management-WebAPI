@@ -72,11 +72,11 @@
           {{#linkTo contacts class="brand"}}Contact Management{{/linkTo}}
           <nav class="nav-collapse collapse">
             <ul class="nav">
-              <li>
-                {{#linkTo index}}
-                  Contacts
+                {{#linkTo contacts tagName="li"}}
+                <a {{bindAttr href="view.href"}}>
+                    Contacts
+                </a>
                 {{/linkTo}}
-              </li>
             </ul>
             <div class="muted pull-right">
               @Html.Partial("_UserSettings")

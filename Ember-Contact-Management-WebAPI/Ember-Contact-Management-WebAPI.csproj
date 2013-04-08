@@ -322,7 +322,12 @@
     <Content Include="Scripts\app\webapi_serializer.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\ember-data-validations.js" />
+    <Content Include="Scripts\ember-1.0.0-rc.2.js" />
+    <Content Include="Scripts\ember-1.0.0-rc.2.min.js" />
+    <Content Include="Scripts\ember-data.js" />
+    <Content Include="Scripts\ember-data.min.js" />
+    <Content Include="Scripts\handlebars.js" />
+    <Content Include="Scripts\handlebars.runtime.js" />
     <Content Include="Scripts\html5shiv.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
@@ -346,13 +351,7 @@
     </Content>
     <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
     <Content Include="Content\site.css" />
-    <Content Include="Content\TodoList.css" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Scripts\ember-1.0.0-rc.1.js" />
-    <Content Include="Scripts\ember-1.0.0-rc.1.min.js" />
-    <Content Include="Scripts\ember-data.js" />
-    <Content Include="Scripts\ember-data.min.js" />
-    <Content Include="Scripts\handlebars-1.0.0-rc.3.js" />
     <Content Include="Images\accent.png" />
     <Content Include="Images\bullet.png" />
     <Content Include="Images\heroAccent.png" />
